@@ -183,7 +183,7 @@ Item {
   }
 
   // Static submenus grow from the 300 floor to the 520 cap the wide menus
-  // already use, so "Reboot to Boot Menu" stays whole. Two pixels past the
+  // already use, so "RetroArch Game Launcher" stays whole. Two pixels past the
   // advance keep ElideRight from spending the last word on the ellipsis
   // when the ink lands on the slot boundary.
   property int cardWidth: {
