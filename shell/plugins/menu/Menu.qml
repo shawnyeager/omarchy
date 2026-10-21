@@ -172,8 +172,7 @@ Item {
 
   function menuUsesWideCard() {
     return root.activeMenu === "trigger.capture.screenrecord"
-      || root.activeMenu === "style.font"
-      || root.activeMenu === "style.font.cjk"
+      || root.activeMenu === "appearance.font"
   }
 
   // cardWidth grows from the measured labels only for a closed authored menu.
